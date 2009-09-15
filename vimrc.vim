@@ -62,6 +62,9 @@ autocmd BufRead *.py,*.sh,*.pl noremap <silent> <Leader>uc :s,^\(\s*\)[#],\1,e<E
 autocmd BufRead *.xml,*.htm,*.html,*.svg noremap <silent> <Leader>cc I<!--<Esc>A--><Esc>
 autocmd BufRead *.xml,*.htm,*.html,*.svg noremap <silent> <Leader>uc :s,^\(\s*\)<!--\(.\{-}\)-->,\1\2,e<Return>
 
+" elimina espacios al final de las lineas al guardar
+autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
+
 " parentiza en los extremos de la seleccion
 vnoremap <silent> <Leader>( :norm `<i(<Esc>`>la)<Esc>
 vnoremap <silent> <Leader>[ :norm `<i[<Esc>`>la]<Esc>
