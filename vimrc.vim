@@ -1,6 +1,6 @@
 " vimrc
 " Author: Roberto Bonvallet
-" Email: rbonvall+vim@gmail.com
+" Email: rbonvall@gmail.com
 
 colorscheme default
 syntax on
@@ -40,7 +40,7 @@ inoremap Ç ~
 " hack feazo (ver :help smartindent)
 inoremap # X<C-h>#
 
-iabbrev FECHA <C-r>expand(strftime("%Y%m%d"))<Return>
+iabbrev FECHA <C-r>=expand(strftime("%Y%m%d"))<Return>
 
 autocmd BufRead *.txt set textwidth=80
 
