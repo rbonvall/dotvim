@@ -65,6 +65,9 @@ autocmd BufRead *.xml,*.htm,*.html,*.svg noremap <silent> <Leader>uc :s,^\(\s*\)
 " elimina espacios al final de las lineas al guardar
 autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 
+" indentar con dos espacios en HTML
+autocmd BufRead *.htm,*.html set shiftwidth=2
+
 " parentiza en los extremos de la seleccion
 vnoremap <silent> <Leader>( :norm `<i(<Esc>`>la)<Esc>
 vnoremap <silent> <Leader>[ :norm `<i[<Esc>`>la]<Esc>
