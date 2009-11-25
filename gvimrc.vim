@@ -1,6 +1,6 @@
 " gvimrc
 " Author: Roberto Bonvallet
-" Email: rbonvall+vim@gmail.com
+" Email: rbonvall@gmail.com
 
 set guioptions-=T
 set guioptions-=m
