@@ -4,6 +4,7 @@
 
 colorscheme default
 syntax on
+filetype plugin indent on
 set expandtab tabstop=8
 set shiftwidth=4
 set autoindent smartindent
