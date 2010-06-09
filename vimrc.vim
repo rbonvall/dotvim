@@ -20,6 +20,7 @@ set modeline
 set modelines=3
 set visualbell t_vb=
 set nrformats=
+set omnifunc=syntaxcomplete#Complete
 
 " mis mapeos imprescindibles
 inoremap jj <ESC>
