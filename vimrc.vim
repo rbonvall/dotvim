@@ -76,5 +76,7 @@ vnoremap <silent> <Leader>[ :norm `<i[<Esc>`>la]<Esc>
 vnoremap <silent> <Leader>{ :norm `<i{<Esc>`>la}<Esc>
 vnoremap <silent> <Leader>< :norm `<i<<Esc>`>la><Esc>
 
+let g:tex_flavor = "latex"
+
 nohlsearch
 
