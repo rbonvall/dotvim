@@ -30,6 +30,10 @@ noremap Y y$
 noremap gt <C-]>
 noremap <Backspace> <C-y>
 noremap <Return> <C-e>
+noremap <Left> <C-w><
+noremap <Right> <C-w>>
+noremap <Up> <C-w>-
+noremap <Down> <C-w>+
 
 " aprovechar teclas poco usadas
 noremap º \
