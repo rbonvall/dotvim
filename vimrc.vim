@@ -2,6 +2,11 @@
 " Author: Roberto Bonvallet
 " Email: rbonvall@gmail.com
 
+" Pathogen should be installed in the autoload directory
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 colorscheme default
 syntax on
 filetype plugin indent on
