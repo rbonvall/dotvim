@@ -86,6 +86,7 @@ vnoremap <silent> <Leader>{ :norm `<i{<Esc>`>la}<Esc>
 vnoremap <silent> <Leader>< :norm `<i<<Esc>`>la><Esc>
 
 let g:tex_flavor = "latex"
+let fortran_free_source=1
 
 nohlsearch
 
