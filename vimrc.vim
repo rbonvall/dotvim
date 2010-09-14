@@ -25,6 +25,7 @@ set modeline
 set modelines=3
 set visualbell t_vb=
 set nrformats=
+set hidden
 set omnifunc=syntaxcomplete#Complete
 
 " mis mapeos imprescindibles
@@ -87,6 +88,8 @@ vnoremap <silent> <Leader>< :norm `<i<<Esc>`>la><Esc>
 
 let g:tex_flavor = "latex"
 let fortran_free_source=1
+
+map <F2> :NERDTreeToggle<CR>
 
 nohlsearch
 
