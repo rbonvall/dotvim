@@ -41,6 +41,7 @@ noremap <Right> <C-w>>
 noremap <Up> <C-w>+
 noremap <Down> <C-w>-
 noremap _ <C-w>_
+noremap <F1> <nop>
 
 " aprovechar teclas poco usadas
 noremap º \
