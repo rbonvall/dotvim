@@ -85,12 +85,6 @@ autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 " algunos formatos los prefiero con indentacion de dos espacios
 autocmd BufRead *.html,*.tex,*.bib set shiftwidth=2
 
-" parentiza en los extremos de la seleccion
-vnoremap <silent> <Leader>( :norm `<i(<Esc>`>la)<Esc>
-vnoremap <silent> <Leader>[ :norm `<i[<Esc>`>la]<Esc>
-vnoremap <silent> <Leader>{ :norm `<i{<Esc>`>la}<Esc>
-vnoremap <silent> <Leader>< :norm `<i<<Esc>`>la><Esc>
-
 let g:tex_flavor = "latex"
 let fortran_free_source=1
 
