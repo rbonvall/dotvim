@@ -42,6 +42,7 @@ noremap <Up> <C-w>+
 noremap <Down> <C-w>-
 noremap _ <C-w>_
 
+inoremap <F1> <nop>
 noremap <F1> <nop>
 noremap <F2> :NERDTreeToggle<CR>
 noremap <F5> :make<CR>
