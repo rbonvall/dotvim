@@ -28,7 +28,7 @@ PATHOGENURL=https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.v
 
 mkdir -p ${AUTOLOADDIR}
 cd "${AUTOLOADDIR}"
-wget --quiet --no-check-certificate "${PATHOGENURL}"
+wget --no-check-certificate "${PATHOGENURL}"
 
 cd "${VIMDIR}"
 git submodule update --init
