@@ -10,3 +10,9 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/rbonvall/snipmate.vim.git
+[submodule "bundle/html5-syntax"]
+	path = bundle/html5-syntax
+	url = git://github.com/othree/html5-syntax.vim.git
+[submodule "bundle/html5"]
+	path = bundle/html5
+	url = git://github.com/othree/html5.vim.git
