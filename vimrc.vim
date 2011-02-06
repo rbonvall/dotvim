@@ -78,3 +78,4 @@ let fortran_free_source=1
 
 nohlsearch
 
+" vim: set fileencoding=utf-8:
