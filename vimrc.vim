@@ -28,7 +28,6 @@ set nrformats=
 set hidden
 set omnifunc=syntaxcomplete#Complete
 
-" mis mapeos imprescindibles
 inoremap jj <ESC>
 noremap <Space> <C-f>
 noremap - <C-b>
@@ -36,29 +35,16 @@ noremap Y y$
 noremap gt <C-]>
 noremap <Backspace> <C-y>
 noremap <Return> <C-e>
-noremap <Left> <C-w><
-noremap <Right> <C-w>>
-noremap <Up> <C-w>+
-noremap <Down> <C-w>-
 noremap _ <C-w>_
 
 inoremap <F1> <nop>
 noremap <F1> <nop>
 noremap <F2> :NERDTreeToggle<CR>
 noremap <F5> :make<CR>
+noremap ยบ :NERDTreeToggle<CR>
 
-" aprovechar teclas poco usadas
-noremap บ \
-inoremap บ \
-noremap ็ /
-inoremap ็ /
-noremap ว ~
-inoremap ว ~
-
-" hack feazo (ver :help smartindent)
+" (see :help smartindent)
 inoremap # X<C-h>#
-
-iabbrev FECHA <C-r>=expand(strftime("%Y%m%d"))<Return>
 
 autocmd BufRead *.txt set textwidth=80
 
