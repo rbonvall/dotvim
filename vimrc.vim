@@ -27,6 +27,7 @@ set visualbell t_vb=
 set nrformats=
 set hidden
 set omnifunc=syntaxcomplete#Complete
+set list listchars=trail:◀,tab:··
 
 inoremap jj <ESC>
 noremap <Space> <C-f>
