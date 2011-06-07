@@ -22,3 +22,9 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/snippets-bib"]
+	path = bundle/snippets-bib
+	url = https://github.com/rbonvall/snipmate-snippets-bib.git
+[submodule "bundle/snippets-tex"]
+	path = bundle/snippets-tex
+	url = https://github.com/rbonvall/snipmate-snippets-tex.git
