@@ -28,3 +28,6 @@
 [submodule "bundle/snippets-tex"]
 	path = bundle/snippets-tex
 	url = https://github.com/rbonvall/snipmate-snippets-tex.git
+[submodule "bundle/snippets-fortran95"]
+	path = bundle/snippets-fortran95
+	url = git://github.com/rbonvall/snipmate-snippets-fortran95.git
