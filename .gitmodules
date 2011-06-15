@@ -31,3 +31,6 @@
 [submodule "bundle/snippets-fortran95"]
 	path = bundle/snippets-fortran95
 	url = git://github.com/rbonvall/snipmate-snippets-fortran95.git
+[submodule "bundle/unicode"]
+	path = bundle/unicode
+	url = git://github.com/chrisbra/unicode.vim.git
