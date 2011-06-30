@@ -40,3 +40,6 @@
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+[submodule "bundle/snippets"]
+	path = bundle/snippets
+	url = git://github.com/rbonvall/snipmate-snippets.git
