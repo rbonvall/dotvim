@@ -55,18 +55,6 @@ autocmd BufRead *.py let python_highlight_numbers  = 1
 " llaves que se acomodan solas
 autocmd BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
 
-" comenta y descomenta la linea actual en lenguajes con sintaxis tipo C
-autocmd BufRead *.c,*.cpp,*.h,*.java,*.css noremap <silent> <Leader>cc I/*<Esc>A*/<Esc>
-autocmd BufRead *.c,*.cpp,*.h,*.java,*.css noremap <silent> <Leader>uc :s,^\(\s*\)/[*]\(.\{-}\)[*]/,\1\2,e<Return>
-
-" comenta y descomenta la linea actual en lenguajes con sintaxis tipo shell
-autocmd BufRead *.py,*.sh,*.pl noremap <silent> <Leader>cc I#<Esc>
-autocmd BufRead *.py,*.sh,*.pl noremap <silent> <Leader>uc :s,^\(\s*\)[#],\1,e<Esc>
-
-" comenta y descomenta la linea actual en lenguajes con sintaxis tipo XML
-autocmd BufRead *.xml,*.htm,*.html,*.svg noremap <silent> <Leader>cc I<!--<Esc>A--><Esc>
-autocmd BufRead *.xml,*.htm,*.html,*.svg noremap <silent> <Leader>uc :s,^\(\s*\)<!--\(.\{-}\)-->,\1\2,e<Return>
-
 " elimina espacios al final de las lineas al guardar
 autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 
