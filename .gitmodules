@@ -43,3 +43,6 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = git://github.com/rbonvall/snipmate-snippets.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
