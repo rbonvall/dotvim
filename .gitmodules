@@ -31,9 +31,6 @@
 [submodule "bundle/unicode"]
 	path = bundle/unicode
 	url = git://github.com/chrisbra/unicode.vim.git
-[submodule "bundle/textobj-indent"]
-	path = bundle/textobj-indent
-	url = git://github.com/kana/vim-textobj-indent.git
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
