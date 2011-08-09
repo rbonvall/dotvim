@@ -43,3 +43,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/textobj"]
+	path = bundle/textobj
+	url = git://github.com/kana/vim-textobj-user.git
