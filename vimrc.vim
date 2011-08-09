@@ -4,8 +4,16 @@
 
 " Pathogen should be installed in the autoload directory
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+
+runtime! autoload/pathogen.vim
+if exists('g:loaded_pathogen')
+  call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundle'))
+  try
+    call pathogen#helptags()
+  catch /Duplicate tag/
+    " do nothing
+  endtry
+end
 
 colorscheme default
 syntax on
