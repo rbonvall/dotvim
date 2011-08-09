@@ -46,3 +46,6 @@
 [submodule "bundle/textobj"]
 	path = bundle/textobj
 	url = git://github.com/kana/vim-textobj-user.git
+[submodule "bundle/indentobject"]
+	path = bundle/indentobject
+	url = git://github.com/austintaylor/vim-indentobject.git
