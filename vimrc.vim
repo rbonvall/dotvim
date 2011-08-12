@@ -5,14 +5,8 @@
 " Pathogen should be installed in the autoload directory
 filetype off
 
-runtime! autoload/pathogen.vim
-if exists('g:loaded_pathogen')
-  call pathogen#runtime_prepend_subdirectories(expand('~/.vim/bundle'))
-  try
-    call pathogen#helptags()
-  catch /Duplicate tag/
-    " do nothing
-  endtry
+if version >= 700
+  runtime load_pathogen.vim
 end
 
 colorscheme default
