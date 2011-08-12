@@ -38,10 +38,12 @@ set nrformats=
 set hidden
 set ruler
 set wildmenu wildmode=full
-set omnifunc=syntaxcomplete#Complete
 set list listchars=trail:◀,tab:··
 set backspace=indent,eol,start
 set laststatus=2
+if version >= 700
+  set omnifunc=syntaxcomplete#Complete
+end
 
 inoremap jj <ESC>
 noremap <Space> <C-f>
