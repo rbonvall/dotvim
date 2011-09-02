@@ -80,6 +80,18 @@ autocmd BufRead *.html,*.tex,*.bib set shiftwidth=2
 let g:tex_flavor = "latex"
 let fortran_free_source = 1
 
+" Window mode
+let g:submode_timeout = 0
+call submode#enter_with('window', 'n', '', 'gw')
+let window_commands =
+  \    '+ - < = > H J K L P R S T W ] ^ _'
+  \ . ' b c d f F g<C-]> g] g} gf gF'
+  \ . ' h i j k l n o p q r s t v w x z }'
+  " TODO: support '|'
+  " TODO: support '<Left> <Right> <Up> <Down>'
+for cmd in split(window_commands)
+  call submode#map('window', 'n', '', cmd, '<C-w>' . cmd)
+endfor
 
 nohlsearch
 
