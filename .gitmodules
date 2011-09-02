@@ -46,3 +46,6 @@
 [submodule "bundle/indentobject"]
 	path = bundle/indentobject
 	url = git://github.com/austintaylor/vim-indentobject.git
+[submodule "bundle/submode"]
+	path = bundle/submode
+	url = git://github.com/kana/vim-submode.git
