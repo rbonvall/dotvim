@@ -78,7 +78,7 @@ autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 autocmd BufRead *.html,*.tex,*.bib set shiftwidth=2
 
 let g:tex_flavor = "latex"
-let fortran_free_source=1
+let fortran_free_source = 1
 
 
 nohlsearch
