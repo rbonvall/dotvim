@@ -82,7 +82,7 @@ let fortran_free_source = 1
 
 " Window mode
 let g:submode_timeout = 0
-call submode#enter_with('window', 'n', '', 'gw')
+call submode#enter_with('window', 'n', '', 'g<C-w>')
 let window_commands =
   \    '+ - < = > H J K L P R S T W ] ^ _'
   \ . ' b c d f F g<C-]> g] g} gf gF'
