@@ -65,9 +65,6 @@ inoremap # X<C-h>#
 
 autocmd BufRead *.txt set textwidth=80
 
-autocmd BufRead *.py let python_highlight_builtins = 1
-autocmd BufRead *.py let python_highlight_numbers  = 1
-
 " llaves que se acomodan solas
 autocmd BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
 
@@ -77,6 +74,8 @@ autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 " algunos formatos los prefiero con indentacion de dos espacios
 autocmd BufRead *.html,*.tex,*.bib set shiftwidth=2
 
+let python_highlight_builtins = 1
+let python_highlight_numbers  = 1
 let g:tex_flavor = "latex"
 let fortran_free_source = 1
 
