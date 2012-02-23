@@ -35,6 +35,7 @@ set wildmenu wildmode=full
 set list listchars=trail:◀,tab:··
 set backspace=indent,eol,start
 set laststatus=2
+set t_Co=256
 if version >= 700
   set omnifunc=syntaxcomplete#Complete
 end
