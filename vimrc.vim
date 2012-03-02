@@ -32,6 +32,7 @@ set nrformats=
 set hidden
 set ruler
 set wildmenu wildmode=full
+set wildignore=*.o,*.pdf,*.dvi,*.aux,*.log,*.pyc
 set list listchars=trail:◀,tab:··
 set backspace=indent,eol,start
 set laststatus=2
