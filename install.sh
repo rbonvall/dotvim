@@ -22,14 +22,3 @@ backup "${VIMDIR}"
 ln -s "${SCRIPTSDIR}" "${VIMDIR}"
 ln -s "${VIMDIR}"/vimrc.vim  "${VIMRC}"
 ln -s "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
-
-AUTOLOADDIR="${VIMDIR}"/autoload
-PATHOGENURL=https://github.com/tpope/vim-pathogen/raw/master/autoload/pathogen.vim
-
-mkdir -p ${AUTOLOADDIR}
-cd "${AUTOLOADDIR}"
-wget --no-check-certificate "${PATHOGENURL}"
-
-cd "${VIMDIR}"
-git submodule update --init
-
