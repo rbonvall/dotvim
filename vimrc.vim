@@ -2,17 +2,35 @@
 " Author: Roberto Bonvallet
 " Email: rbonvall@gmail.com
 
-" Pathogen should be installed in the autoload directory
+set nocompatible
 filetype off
-
-if version >= 700
-  runtime load_pathogen.vim
-end
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'kana/vim-submode'
+Bundle 'kana/vim-textobj-user'
+Bundle 'austintaylor/vim-indentobject'
+Bundle 'chrisbra/unicode.vim'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
+Bundle 'groenewege/vim-less'
+Bundle 'wincent/Command-T'
+Bundle 'othree/html5-syntax.vim'
+Bundle 'othree/html5.vim'
+Bundle 'garbas/vim-snipmate'
+Bundle 'rbonvall/snipmate-snippets'
+Bundle 'rbonvall/snipmate-snippets-bib'
+Bundle 'rbonvall/snipmate-snippets-fortran95'
 
 colorscheme default
 syntax on
 filetype plugin indent on
-set nocompatible
 set expandtab tabstop=8
 set shiftwidth=4
 set autoindent smartindent
