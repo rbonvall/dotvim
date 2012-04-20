@@ -2,7 +2,7 @@
 " Author: Roberto Bonvallet
 " Email: rbonvall@gmail.com
 
-source bundles.vim
+runtime bundles.vim
 
 colorscheme default
 syntax on
