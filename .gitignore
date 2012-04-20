@@ -1,4 +1,4 @@
 *.swp
 tags
 .netrwhist
-autoload/pathogen.vim
+bundle

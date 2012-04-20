@@ -2,17 +2,11 @@
 " Author: Roberto Bonvallet
 " Email: rbonvall@gmail.com
 
-" Pathogen should be installed in the autoload directory
-filetype off
-
-if version >= 700
-  runtime load_pathogen.vim
-end
+source bundles.vim
 
 colorscheme default
 syntax on
 filetype plugin indent on
-set nocompatible
 set expandtab tabstop=8
 set shiftwidth=4
 set autoindent smartindent
