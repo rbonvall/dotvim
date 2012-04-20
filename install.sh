@@ -22,3 +22,5 @@ backup "${VIMDIR}"
 ln -s "${SCRIPTSDIR}" "${VIMDIR}"
 ln -s "${VIMDIR}"/vimrc.vim  "${VIMRC}"
 ln -s "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
+
+vim -u bundles.vim +BundleInstall +q
