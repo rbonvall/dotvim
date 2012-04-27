@@ -27,4 +27,6 @@ ln -s "${SCRIPTSDIR}" "${VIMDIR}"
 ln -s "${VIMDIR}"/vimrc.vim  "${VIMRC}"
 ln -s "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
 
+mkdir -p bundle
+git clone https://github.com/gmarik/vundle.git bundle/vundle
 vim -u bundles.vim +BundleInstall +q
