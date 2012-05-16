@@ -36,6 +36,8 @@ if version >= 700
 end
 
 inoremap jj <ESC>
+noremap H 0
+noremap L $
 noremap <Space> <C-f>
 noremap - <C-b>
 noremap Y y$
