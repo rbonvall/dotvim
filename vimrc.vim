@@ -70,7 +70,7 @@ autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap {} {<Return>}<Es
 autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 
 " algunos formatos los prefiero con indentacion de dos espacios
-autocmd BufNewFile,BufRead *.html,*.tex,*.bib setlocal shiftwidth=2
+autocmd FileType html,tex,bib setlocal shiftwidth=2
 
 let python_highlight_builtins = 1
 let python_highlight_numbers  = 1
