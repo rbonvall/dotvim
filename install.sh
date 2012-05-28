@@ -11,9 +11,7 @@ backup () {
   fi
 }
 
-pushd $(dirname "$0") > /dev/null
-SCRIPTSDIR="${PWD}"
-popd > /dev/null
+SCRIPTSDIR="$(dirname $(readlink -f $0))"
 
 VIMRC="${HOME}/.vimrc"
 GVIMRC="${HOME}/.gvimrc"
