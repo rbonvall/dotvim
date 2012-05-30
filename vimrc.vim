@@ -64,7 +64,7 @@ inoremap # X<C-h>#
 autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
 
 " llaves que se acomodan solas
-autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap {} {<Return>}<Esc>O
+autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
 
 " elimina espacios al final de las lineas al guardar
 autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
