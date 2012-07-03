@@ -17,6 +17,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'kana/vim-textobj-function'
 Bundle 'austintaylor/vim-indentobject'
 Bundle 'chrisbra/unicode.vim'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
