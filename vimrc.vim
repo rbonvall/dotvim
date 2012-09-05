@@ -78,6 +78,8 @@ let python_highlight_numbers  = 1
 let g:tex_flavor = "latex"
 let fortran_free_source = 1
 
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
+
 " Window mode
 let g:submode_timeout = 0
 call submode#enter_with('window', 'n', '', 'g<C-w>')
