@@ -33,3 +33,8 @@ Bundle 'rbonvall/snipmate-snippets'
 Bundle 'rbonvall/snipmate-snippets-bib'
 Bundle 'rbonvall/snipmate-snippets-fortran95'
 
+" Colorschemes
+Bundle 'tomasr/molokai'
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+
