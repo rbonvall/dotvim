@@ -64,13 +64,13 @@ inoremap # X<C-h>#
 
 autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
 
-" llaves que se acomodan solas
+" self-closing braces
 autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
 
-" elimina espacios al final de las lineas al guardar
+" delete trailing whitespace when saving
 autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
 
-" algunos formatos los prefiero con indentacion de dos espacios
+" shorter indentation for some file types
 autocmd FileType html,tex,bib setlocal shiftwidth=2
 
 let python_highlight_builtins = 1
