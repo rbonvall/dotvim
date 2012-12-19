@@ -22,6 +22,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-rsi'
 Bundle 'gregsexton/gitv'
 Bundle 'groenewege/vim-less'
 Bundle 'krisajenkins/vim-pipe'
