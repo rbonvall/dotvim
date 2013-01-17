@@ -64,13 +64,16 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>cw :%s/\s\+$//<cr>
 
-autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
+augroup myautocmds
+  autocmd!
+  autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
 
-" self-closing braces
-autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
+  " self-closing braces
+  autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
 
-" shorter indentation for some file types
-autocmd FileType html,tex,bib setlocal shiftwidth=2
+  " shorter indentation for some file types
+  autocmd FileType html,tex,bib setlocal shiftwidth=2
+augroup END
 
 let python_highlight_builtins = 1
 let python_highlight_numbers  = 1
