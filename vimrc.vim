@@ -60,6 +60,9 @@ noremap º :NERDTreeToggle<CR>
 " (see :help smartindent)
 inoremap # X<C-h>#
 
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
 
 " self-closing braces
