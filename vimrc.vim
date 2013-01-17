@@ -68,9 +68,6 @@ autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
 " self-closing braces
 autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
 
-" delete trailing whitespace when saving
-autocmd BufWritePre *.py,*.c,*.h,*.cpp :%s,\s\+$,,e
-
 " shorter indentation for some file types
 autocmd FileType html,tex,bib setlocal shiftwidth=2
 
