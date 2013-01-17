@@ -62,7 +62,7 @@ inoremap # X<C-h>#
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-nnoremap <leader>cw :%s/\s\+$//<cr>
+nnoremap <leader>d<space> :%s/\s\+$//<cr>
 
 augroup myautocmds
   autocmd!
