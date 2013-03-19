@@ -18,7 +18,6 @@ set noequalalways
 set splitright
 set nohlsearch incsearch
 set gdefault
-set pastetoggle=<F11>
 set modeline
 set modelines=3
 set visualbell t_vb=
