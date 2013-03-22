@@ -2,44 +2,64 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
+" Plugin management
 Bundle 'gmarik/vundle'
+
+" Helper libraries
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/syntastic'
+
+" Make a better vim
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-eunuch'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'kana/vim-submode'
-Bundle 'kana/vim-textobj-user'
-Bundle 'kana/vim-textobj-function'
-Bundle 'austintaylor/vim-indentobject'
-Bundle 'chrisbra/unicode.vim'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-rsi'
-Bundle 'gregsexton/gitv'
-Bundle 'groenewege/vim-less'
-Bundle 'krisajenkins/vim-pipe'
-Bundle 'airblade/vim-rooter'
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'othree/html5-syntax.vim'
-Bundle 'othree/html5.vim'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'nsf/gocode', {'rtp': 'vim/'}
-Bundle 'sjl/gundo.vim'
 Bundle 'edsono/vim-matchit'
-Bundle 'majutsushi/tagbar'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'scrooloose/nerdcommenter'
+
+" Snippets
 Bundle 'garbas/vim-snipmate'
-Bundle 'rbonvall/vim-textobj-latex'
 Bundle 'rbonvall/snipmate-snippets'
 Bundle 'rbonvall/snipmate-snippets-bib'
 Bundle 'rbonvall/snipmate-snippets-fortran95'
+
+" Text objects
+Bundle 'kana/vim-textobj-user'
+Bundle 'kana/vim-textobj-function'
+Bundle 'rbonvall/vim-textobj-latex'
+Bundle 'austintaylor/vim-indentobject'
+
+" Git
+Bundle 'tpope/vim-fugitive'
+Bundle 'gregsexton/gitv'
+
+" HTML
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'tpope/vim-ragtag'
+Bundle 'othree/html5-syntax.vim'
+Bundle 'othree/html5.vim'
+
+" Go
+Bundle 'jnwhiteh/vim-golang'
+Bundle 'nsf/gocode', {'rtp': 'vim/'}
+
+" Fancy panels
+Bundle 'scrooloose/nerdtree'
+Bundle 'kien/ctrlp.vim.git'
+Bundle 'sjl/gundo.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'scrooloose/syntastic'
+
+" Others
+Bundle 'kana/vim-submode'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'chrisbra/unicode.vim'
+Bundle 'groenewege/vim-less'
+Bundle 'krisajenkins/vim-pipe'
+Bundle 'airblade/vim-rooter'
 
 " Colorschemes
 Bundle 'tomasr/molokai'
