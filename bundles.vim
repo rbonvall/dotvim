@@ -31,6 +31,7 @@ Bundle 'kien/ctrlp.vim.git'
 Bundle 'othree/html5-syntax.vim'
 Bundle 'othree/html5.vim'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'nsf/gocode', {'rtp': 'vim/'}
 Bundle 'sjl/gundo.vim'
 Bundle 'edsono/vim-matchit'
 Bundle 'majutsushi/tagbar'
