@@ -26,7 +26,7 @@ set hidden
 set ruler
 set wildmenu wildmode=full
 set wildignore=*.o,*.pdf,*.dvi,*.aux,*.log,*.pyc,*.hi
-set list listchars=trail:◀,tab:··
+set list listchars=trail:·,tab:·\ 
 set backspace=indent,eol,start
 set laststatus=2
 set noswapfile
