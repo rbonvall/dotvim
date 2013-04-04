@@ -66,12 +66,14 @@ nnoremap <leader>d<space> :%s/\s\+$//<cr>
 augroup myautocmds
   autocmd!
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
+  autocmd FileType go setlocal shiftwidth=8 noexpandtab
 
   " self-closing braces
   autocmd BufNewFile,BufRead *.c,*.h,*.cpp,*.pl,*.java,*.css imap <buffer> {} {<Return>}<Esc>O
 
   " shorter indentation for some file types
   autocmd FileType html,tex,bib setlocal shiftwidth=2
+
 augroup END
 
 let python_highlight_builtins = 1
