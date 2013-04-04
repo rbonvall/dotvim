@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 " Helper libraries
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+Bundle 'kana/vim-submode'
 
 " Make a better vim
 Bundle 'tpope/vim-repeat'
@@ -47,6 +48,10 @@ Bundle 'othree/html5.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'nsf/gocode', {'rtp': 'vim/'}
 
+" Other languages
+Bundle 'groenewege/vim-less'
+Bundle 'uarun/vim-protobuf'
+
 " Fancy panels
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim.git'
@@ -55,11 +60,8 @@ Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/syntastic'
 
 " Others
-Bundle 'kana/vim-submode'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'chrisbra/unicode.vim'
-Bundle 'groenewege/vim-less'
-Bundle 'uarun/vim-protobuf'
 Bundle 'krisajenkins/vim-pipe'
 Bundle 'airblade/vim-rooter'
 
