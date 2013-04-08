@@ -66,7 +66,7 @@ nnoremap <leader>d<space> :%s/\s\+$//<cr>
 augroup myautocmds
   autocmd!
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
-  autocmd FileType go setlocal shiftwidth=8 noexpandtab
+  autocmd FileType go setlocal shiftwidth=8 noexpandtab commentstring="// %s"
   autocmd FileType html,tex,bib setlocal shiftwidth=2
 augroup END
 
