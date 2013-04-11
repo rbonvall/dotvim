@@ -52,6 +52,7 @@ Bundle 'nsf/gocode', {'rtp': 'vim/'}
 Bundle 'groenewege/vim-less'
 Bundle 'uarun/vim-protobuf'
 Bundle 'wlangstroth/vim-racket'
+Bundle 'kchmck/vim-coffee-script'
 
 " Fancy panels
 Bundle 'scrooloose/nerdtree'
