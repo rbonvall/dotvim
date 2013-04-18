@@ -37,6 +37,7 @@ Bundle 'austintaylor/vim-indentobject'
 " Git
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
+Bundle 'airblade/vim-gitgutter'
 
 " HTML
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
