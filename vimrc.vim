@@ -68,7 +68,7 @@ augroup myautocmds
   autocmd!
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
   autocmd FileType go setlocal shiftwidth=8 noexpandtab commentstring="// %s"
-  autocmd FileType html,tex,bib setlocal shiftwidth=2
+  autocmd FileType html,tex,bib,vim,sh setlocal shiftwidth=2
   autocmd BufNewFile,BufRead *.json setfiletype javascript
 augroup END
 
