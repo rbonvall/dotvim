@@ -37,6 +37,7 @@ Bundle 'austintaylor/vim-indentobject'
 " Git
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
+Bundle 'airblade/vim-gitgutter'
 
 " HTML
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -66,6 +67,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'chrisbra/unicode.vim'
 Bundle 'krisajenkins/vim-pipe'
 Bundle 'airblade/vim-rooter'
+Bundle 'godlygeek/tabular'
 
 " Colorschemes
 Bundle 'tomasr/molokai'
