@@ -74,7 +74,14 @@ augroup myautocmds
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
   autocmd FileType go setlocal shiftwidth=8 noexpandtab commentstring="// %s"
   autocmd FileType html,tex,bib,vim,sh setlocal shiftwidth=2
-  autocmd BufNewFile,BufRead *.json setfiletype javascript
+augroup END
+
+augroup filetypedetect
+  autocmd!
+  autocmd BufNewFile,BufRead *.cu   setf cuda
+  autocmd BufNewFile,BufRead *.j2   setf htmldjango
+  autocmd BufNewFile,BufRead *.md   setf markdown
+  autocmd BufNewFile,BufRead *.json setf javascript
 augroup END
 
 let python_highlight_builtins = 1
