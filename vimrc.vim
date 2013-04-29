@@ -64,6 +64,11 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>sg :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 
+digraph ,. 8230   " …
+digraph :( 9785   " ☹
+digraph :) 9786   " ☺
+digraph SK 9760   " ☠
+
 augroup myautocmds
   autocmd!
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
