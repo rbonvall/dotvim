@@ -10,6 +10,10 @@ set guioptions-=r
 set guioptions-=R
 set t_vb=
 set guifont=Monospace\ 8
-colorscheme desert
-highlight Normal guibg=grey10
+try
+  colorscheme Tomorrow-Night-Bright
+catch /^Vim\%((\a\+)\)\=:E185/
+  colorscheme desert
+  highlight Normal guibg=grey10
+endtry
 
