@@ -45,6 +45,9 @@ noremap <Return> <C-e>
 noremap _ <C-w>_
 nnoremap / /\v
 vnoremap / /\v
+noremap H ^
+noremap L $
+noremap M %
 
 inoremap <F1> <nop>
 nnoremap <F1> <nop>
