@@ -80,10 +80,10 @@ augroup myautocmds
 augroup END
 
 augroup filetypedetect
-  autocmd BufNewFile,BufRead *.cu   setf cuda
-  autocmd BufNewFile,BufRead *.j2   setf htmldjango
-  autocmd BufNewFile,BufRead *.md   setf markdown
-  autocmd BufNewFile,BufRead *.json setf javascript
+  autocmd BufNewFile,BufRead *.cu   set filetype=cuda
+  autocmd BufNewFile,BufRead *.j2   set filetype=htmldjango
+  autocmd BufNewFile,BufRead *.md   set filetype=markdown
+  autocmd BufNewFile,BufRead *.json set filetype=javascript
 augroup END
 
 let g:python_highlight_builtins = 1
