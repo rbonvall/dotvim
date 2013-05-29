@@ -48,6 +48,8 @@ vnoremap / /\v
 noremap H ^
 noremap L $
 noremap M %
+vnoremap < <gv
+vnoremap > >gv
 
 inoremap <F1> <nop>
 nnoremap <F1> <nop>
