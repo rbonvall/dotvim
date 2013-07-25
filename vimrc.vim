@@ -72,6 +72,9 @@ nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
 
 digraph ,. 8230   " …
+digraph BU 8226   " •
+digraph BT 8227   " ‣
+digraph ** 8258   " ⁂
 digraph :( 9785   " ☹
 digraph :) 9786   " ☺
 digraph SK 9760   " ☠
