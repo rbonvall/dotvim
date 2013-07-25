@@ -84,6 +84,7 @@ digraph ** 8258   " ⁂
 digraph :( 9785   " ☹
 digraph :) 9786   " ☺
 digraph SK 9760   " ☠
+digraph FF 10070  " ❖
 
 augroup myautocmds
   autocmd!
