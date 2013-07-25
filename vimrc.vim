@@ -69,6 +69,7 @@ nnoremap <leader>eb :vsplit $HOME/codigo/dotvim/bundles.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>sg :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
+nnoremap <leader>op :!xdg-open % &<cr>
 
 digraph ,. 8230   " …
 digraph :( 9785   " ☹
