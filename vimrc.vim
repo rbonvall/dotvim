@@ -29,6 +29,7 @@ set wildignore=*.o,*.pdf,*.dvi,*.aux,*.log,*.pyc,*.hi
 set list listchars=trail:·,tab:·\ 
 set backspace=indent,eol,start
 set laststatus=2
+set noshowmode
 set noswapfile
 set t_Co=256
 if version >= 700
