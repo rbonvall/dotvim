@@ -101,7 +101,7 @@ let g:is_bash = 1
 
 let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
 let g:Powerline_symbols = 'unicode'
-let g:NERDTreeIgnore = ['\.pdf$', '\.aux$', '\.log$', '\.out$']
+let g:NERDTreeIgnore = ['\.pdf$', '\.aux$', '\.log$', '\.out$', '\.pyc$']
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
