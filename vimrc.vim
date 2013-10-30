@@ -24,6 +24,7 @@ set visualbell t_vb=
 set nrformats=
 set hidden
 set ruler
+set number relativenumber
 set wildmenu wildmode=full
 set wildignore=*.o,*.pdf,*.dvi,*.aux,*.log,*.pyc,*.hi
 set list listchars=trail:·,tab:·\ 
