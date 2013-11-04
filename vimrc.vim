@@ -71,6 +71,9 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>sg :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
+nnoremap <leader>bi :BundleInstall<cr>
+nnoremap <leader>bu :BundleInstall!<cr>
+nnoremap <leader>bc :BundleClean<cr>
 
 digraph ,. 8230   " …
 digraph BU 8226   " •
