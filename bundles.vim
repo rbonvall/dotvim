@@ -22,6 +22,7 @@ Bundle 'tpope/vim-abolish'
 Bundle 'kana/vim-smartinput'
 Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'mhinz/vim-startify'
 
 " Snippets
 Bundle 'garbas/vim-snipmate'
