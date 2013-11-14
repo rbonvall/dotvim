@@ -32,6 +32,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set noshowmode
 set noswapfile
+set history=1000
 set t_Co=256
 if version >= 700
   set omnifunc=syntaxcomplete#Complete
