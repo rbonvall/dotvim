@@ -50,6 +50,12 @@ Bundle 'othree/html5.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'nsf/gocode', {'rtp': 'vim/'}
 
+" Javascript
+Bundle 'moll/vim-node'
+Bundle 'mklabs/grunt.vim'
+Bundle 'walm/jshint.vim'
+Bundle 'marijnh/tern_for_vim'
+
 " Other languages
 Bundle 'groenewege/vim-less'
 Bundle 'uarun/vim-protobuf'
