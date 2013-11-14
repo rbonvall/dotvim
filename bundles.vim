@@ -74,7 +74,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'chrisbra/unicode.vim'
 Bundle 'krisajenkins/vim-pipe'
-Bundle 'airblade/vim-rooter'
 Bundle 'godlygeek/tabular'
 
 " Colorschemes
