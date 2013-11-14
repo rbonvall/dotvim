@@ -67,11 +67,11 @@ noremap ª :TagbarToggle<CR>
 inoremap # X<C-h>#
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>eb :vsplit $HOME/codigo/dotvim/bundles.vim<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>sg :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
+nnoremap <leader>be :vsplit $HOME/codigo/dotvim/bundles.vim<cr>
 nnoremap <leader>bi :BundleInstall<cr>
 nnoremap <leader>bu :BundleInstall!<cr>
 nnoremap <leader>bc :BundleClean<cr>
