@@ -66,9 +66,9 @@ noremap ª :TagbarToggle<CR>
 " (see :help smartindent)
 inoremap # X<C-h>#
 
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
-nnoremap <leader>sg :source $MYGVIMRC<cr>
+nnoremap <leader>ve :vsplit $MYVIMRC<cr>
+nnoremap <leader>vs :source $MYVIMRC<cr>
+nnoremap <leader>gs :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
 nnoremap <leader>be :vsplit $HOME/codigo/dotvim/bundles.vim<cr>
