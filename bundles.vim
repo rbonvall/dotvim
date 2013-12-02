@@ -23,6 +23,7 @@ Bundle 'kana/vim-smartinput'
 Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mhinz/vim-startify'
+Bundle 'bruno-/vim-vertical-move'
 
 " Snippets
 Bundle 'garbas/vim-snipmate'
