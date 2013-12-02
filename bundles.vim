@@ -63,6 +63,7 @@ Bundle 'groenewege/vim-less'
 Bundle 'uarun/vim-protobuf'
 Bundle 'wlangstroth/vim-racket'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'mustache/vim-mode'
 
 " Fancy panels
 Bundle 'scrooloose/nerdtree'
