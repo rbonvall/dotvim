@@ -23,6 +23,7 @@ Bundle 'kana/vim-smartinput'
 Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mhinz/vim-startify'
+Bundle 'bruno-/vim-vertical-move'
 
 " Snippets
 Bundle 'garbas/vim-snipmate'
@@ -62,6 +63,7 @@ Bundle 'groenewege/vim-less'
 Bundle 'uarun/vim-protobuf'
 Bundle 'wlangstroth/vim-racket'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'mustache/vim-mode'
 
 " Fancy panels
 Bundle 'scrooloose/nerdtree'
