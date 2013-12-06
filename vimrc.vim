@@ -59,9 +59,6 @@ vnoremap > >gv
 inoremap <F1> <nop>
 nnoremap <F1> <nop>
 vnoremap <F1> <nop>
-inoremap ç /
-nnoremap ç /
-vnoremap ç /
 noremap º :NERDTreeToggle<CR>
 noremap ª :TagbarToggle<CR>
 
