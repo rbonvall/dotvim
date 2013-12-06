@@ -40,6 +40,7 @@ if version >= 700
 end
 
 inoremap jj <ESC>
+inoremap <C-j> <Esc>o
 noremap <Space> <C-f>
 noremap - <C-b>
 noremap Y y$
