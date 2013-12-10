@@ -47,6 +47,8 @@ noremap Y y$
 noremap gt <C-]>
 noremap <Backspace> <C-y>
 noremap <Return> <C-e>
+noremap ç 4zl
+noremap Ç 4zh
 noremap _ <C-w>_
 nnoremap / /\v
 vnoremap / /\v
