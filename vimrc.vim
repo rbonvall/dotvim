@@ -113,6 +113,7 @@ let g:is_bash = 1
 let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
 let g:Powerline_symbols = 'compatible'
 let g:NERDTreeIgnore = ['\.pdf$', '\.aux$', '\.log$', '\.out$', '\.pyc$']
+let g:syntastic_javascript_checkers = ['/usr/local/bin/jshint']
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
