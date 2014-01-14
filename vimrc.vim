@@ -69,6 +69,7 @@ inoremap # X<C-h>#
 
 nnoremap <leader>ve :vsplit $MYVIMRC<cr>
 nnoremap <leader>vs :source $MYVIMRC<cr>
+nnoremap <leader>ge :vsplit $MYGVIMRC<cr>
 nnoremap <leader>gs :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
