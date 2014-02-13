@@ -44,6 +44,7 @@ inoremap <C-j> <Esc>o
 inoremap ł λ
 
 noremap <Space> <C-f>
+noremap <S-Space> <C-b>
 noremap - <C-b>
 noremap Y y$
 noremap gt <C-]>
