@@ -9,7 +9,11 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 set t_vb=
-set guifont=Monospace\ 8
+if has('win32')
+  set guifont=Consolas:h10
+else
+  set guifont=Monospace\ 10
+endif
 try
   colorscheme Tomorrow-Night-Bright
 catch /^Vim\%((\a\+)\)\=:E185/
