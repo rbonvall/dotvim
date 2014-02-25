@@ -65,6 +65,7 @@ Bundle 'wlangstroth/vim-racket'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'mustache/vim-mode'
 Bundle 'tpope/vim-jdaddy'
+Bundle 'wting/rust.vim'
 
 " Fancy panels
 Bundle 'scrooloose/nerdtree'
