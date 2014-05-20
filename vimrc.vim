@@ -118,6 +118,7 @@ let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -
 let g:Powerline_symbols = 'compatible'
 let g:NERDTreeIgnore = ['\.pdf$', '\.aux$', '\.log$', '\.out$', '\.pyc$']
 let g:syntastic_javascript_checkers = ['/usr/local/bin/jshint']
+let g:syntastic_flake8_args = '--max-line-length=120'
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
