@@ -85,6 +85,7 @@ digraph ,. 8230   " …
 digraph BU 8226   " •
 digraph BT 8227   " ‣
 digraph ** 8258   " ⁂
+digraph := 8788   " ≔
 digraph :( 9785   " ☹
 digraph :) 9786   " ☺
 digraph SK 9760   " ☠
