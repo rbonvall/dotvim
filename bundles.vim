@@ -58,6 +58,10 @@ Bundle 'mklabs/grunt.vim'
 Bundle 'walm/jshint.vim'
 Bundle 'marijnh/tern_for_vim'
 
+" Scala
+Bundle 'derekwyatt/vim-scala'
+Bundle 'derekwyatt/vim-sbt'
+
 " Other languages
 Bundle 'groenewege/vim-less'
 Bundle 'uarun/vim-protobuf'
