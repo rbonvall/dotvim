@@ -24,6 +24,7 @@ Plugin 'edsono/vim-matchit'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'mhinz/vim-startify'
 Plugin 'bruno-/vim-vertical-move'
+Plugin 'thinca/vim-quickrun'
 
 " Snippets
 Plugin 'garbas/vim-snipmate'
