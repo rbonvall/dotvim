@@ -4,90 +4,90 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Plugin management
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Helper libraries
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'kana/vim-submode'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'kana/vim-submode'
 
 " Make a better vim
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-eunuch'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-rsi'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-abolish'
-Bundle 'kana/vim-smartinput'
-Bundle 'edsono/vim-matchit'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'mhinz/vim-startify'
-Bundle 'bruno-/vim-vertical-move'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-rsi'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-abolish'
+Plugin 'kana/vim-smartinput'
+Plugin 'edsono/vim-matchit'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'mhinz/vim-startify'
+Plugin 'bruno-/vim-vertical-move'
 
 " Snippets
-Bundle 'garbas/vim-snipmate'
-Bundle 'rbonvall/snipmate-snippets'
-Bundle 'rbonvall/snipmate-snippets-bib'
-Bundle 'rbonvall/snipmate-snippets-fortran95'
+Plugin 'garbas/vim-snipmate'
+Plugin 'rbonvall/snipmate-snippets'
+Plugin 'rbonvall/snipmate-snippets-bib'
+Plugin 'rbonvall/snipmate-snippets-fortran95'
 
 " Text objects
-Bundle 'kana/vim-textobj-user'
-Bundle 'kana/vim-textobj-function'
-Bundle 'rbonvall/vim-textobj-latex'
-Bundle 'austintaylor/vim-indentobject'
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-function'
+Plugin 'rbonvall/vim-textobj-latex'
+Plugin 'austintaylor/vim-indentobject'
 
 " Git
-Bundle 'tpope/vim-fugitive'
-Bundle 'gregsexton/gitv'
-Bundle 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'gregsexton/gitv'
+Plugin 'airblade/vim-gitgutter'
 
 " HTML
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-ragtag'
-Bundle 'othree/html5-syntax.vim'
-Bundle 'othree/html5.vim'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'tpope/vim-ragtag'
+Plugin 'othree/html5-syntax.vim'
+Plugin 'othree/html5.vim'
 
 " Go
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'jnwhiteh/vim-golang'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
 
 " Javascript
-Bundle 'moll/vim-node'
-Bundle 'mklabs/grunt.vim'
-Bundle 'walm/jshint.vim'
-Bundle 'marijnh/tern_for_vim'
+Plugin 'moll/vim-node'
+Plugin 'mklabs/grunt.vim'
+Plugin 'walm/jshint.vim'
+Plugin 'marijnh/tern_for_vim'
 
 " Scala
-Bundle 'derekwyatt/vim-scala'
-Bundle 'derekwyatt/vim-sbt'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'derekwyatt/vim-sbt'
 
 " Other languages
-Bundle 'groenewege/vim-less'
-Bundle 'uarun/vim-protobuf'
-Bundle 'wlangstroth/vim-racket'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mustache/vim-mode'
-Bundle 'tpope/vim-jdaddy'
-Bundle 'wting/rust.vim'
-Bundle 'AndrewRadev/vim-eco'
-Bundle 'wavded/vim-stylus'
+Plugin 'groenewege/vim-less'
+Plugin 'uarun/vim-protobuf'
+Plugin 'wlangstroth/vim-racket'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'mustache/vim-mode'
+Plugin 'tpope/vim-jdaddy'
+Plugin 'wting/rust.vim'
+Plugin 'AndrewRadev/vim-eco'
+Plugin 'wavded/vim-stylus'
 
 " Fancy panels
-Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'sjl/gundo.vim'
-Bundle 'majutsushi/tagbar'
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim.git'
+Plugin 'sjl/gundo.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/syntastic'
 
 " Others
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'chrisbra/unicode.vim'
-Bundle 'krisajenkins/vim-pipe'
-Bundle 'godlygeek/tabular'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'chrisbra/unicode.vim'
+Plugin 'krisajenkins/vim-pipe'
+Plugin 'godlygeek/tabular'
 
 " Colorschemes
-Bundle 'tomasr/molokai'
-Bundle 'nanotech/jellybeans.vim'
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'tomasr/molokai'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
