@@ -53,6 +53,7 @@ noremap <Return> <C-e>
 noremap ç 4zl
 noremap Ç 4zh
 noremap _ <C-w>_
+noremap <Bar> <C-w><Bar>
 nnoremap / /\v
 vnoremap / /\v
 noremap H ^
