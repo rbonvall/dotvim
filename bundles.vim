@@ -84,7 +84,6 @@ Plugin 'scrooloose/syntastic'
 " Others
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'chrisbra/unicode.vim'
-Plugin 'krisajenkins/vim-pipe'
 Plugin 'godlygeek/tabular'
 
 " Colorschemes
