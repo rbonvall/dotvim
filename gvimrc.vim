@@ -10,9 +10,9 @@ set guioptions-=r
 set guioptions-=R
 set t_vb=
 if has('win32')
-  set guifont=Consolas:h10
+  set guifont=Consolas:h14
 else
-  set guifont=Monospace\ 10
+  set guifont=Monospace\ 14
 endif
 try
   "colorscheme Tomorrow-Night-Bright
