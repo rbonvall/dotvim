@@ -15,7 +15,9 @@ else
   set guifont=Monospace\ 10
 endif
 try
-  colorscheme Tomorrow-Night-Bright
+  "colorscheme Tomorrow-Night-Bright
+  colorscheme gruvbox
+  "set background=dark
 catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme desert
   highlight Normal guibg=grey10

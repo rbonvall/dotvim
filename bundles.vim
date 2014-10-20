@@ -90,6 +90,7 @@ Plugin 'godlygeek/tabular'
 
 " Colorschemes
 Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
