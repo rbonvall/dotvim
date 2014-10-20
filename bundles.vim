@@ -26,6 +26,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'bruno-/vim-vertical-move'
 Plugin 'thinca/vim-quickrun'
 Plugin 'haya14busa/incsearch.vim'
+Plugin 'ConradIrwin/vim-bracketed-paste'
 
 " Snippets
 Plugin 'garbas/vim-snipmate'
