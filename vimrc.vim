@@ -82,11 +82,6 @@ nnoremap <leader>bi :BundleInstall<cr>
 nnoremap <leader>bu :BundleInstall!<cr>
 nnoremap <leader>bc :BundleClean<cr>
 
-" mappings for the haya14busa/incsearch.vim plugin
-noremap /  <Plug>(incsearch-forward)
-noremap ?  <Plug>(incsearch-backward)
-noremap g/ <Plug>(incsearch-stay)
-
 digraph ,. 8230   " …
 digraph BU 8226   " •
 digraph BT 8227   " ‣
