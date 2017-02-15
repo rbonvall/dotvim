@@ -28,3 +28,9 @@ ln -s "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
 mkdir -p bundle
 git clone https://github.com/gmarik/vundle.git bundle/vundle
 vim -u bundles.vim +BundleInstall +qa
+
+# For neovim
+mkdir -p "$HOME/.config"
+ln -s "$HOME/.vim"   "$HOME/.config/nvim"
+ln -s "$HOME/.vimrc" "$HOME/.config/nvim/init.vim"
+
