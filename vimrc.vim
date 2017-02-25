@@ -124,6 +124,7 @@ let g:NERDTreeIgnore = ['\.pdf$', '\.aux$', '\.log$', '\.out$', '\.pyc$']
 let g:syntastic_javascript_checkers = ['/usr/local/bin/jshint']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args = '--max-line-length=120'
+let g:syntastic_enable_racket_racket_checker = 1
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
