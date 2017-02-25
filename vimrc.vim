@@ -33,7 +33,9 @@ set laststatus=2
 set noshowmode
 set noswapfile
 set history=1000
-set cryptmethod=blowfish
+if !has('nvim')
+  set cryptmethod=blowfish
+end
 set t_Co=256
 if version >= 700
   set omnifunc=syntaxcomplete#Complete
