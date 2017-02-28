@@ -33,9 +33,6 @@ set laststatus=2
 set noshowmode
 set noswapfile
 set history=1000
-if !has('nvim')
-  set cryptmethod=blowfish
-end
 set t_Co=256
 if version >= 700
   set omnifunc=syntaxcomplete#Complete
@@ -99,10 +96,13 @@ augroup myautocmds
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
   autocmd FileType go setlocal shiftwidth=8 noexpandtab commentstring="// %s"
   autocmd FileType html,tex,bib,vim,sh setlocal shiftwidth=2
-  autocmd BufReadPost *
-    \ if &key != "" |
-    \   set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure |
-    \ endif
+  if !has('nvim')
+    set cryptmethod=blowfish
+    autocmd BufReadPost *
+      \ if &key != "" |
+      \   set noswapfile nowritebackup viminfo= nobackup noshelltemp history=0 secure |
+      \ endif
+  endif
 augroup END
 
 augroup filetypedetect
