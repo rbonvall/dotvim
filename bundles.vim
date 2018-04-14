@@ -58,7 +58,6 @@ Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'moll/vim-node'
 Plugin 'mklabs/grunt.vim'
 Plugin 'walm/jshint.vim'
-Plugin 'marijnh/tern_for_vim'
 
 " Scala
 Plugin 'derekwyatt/vim-scala'
