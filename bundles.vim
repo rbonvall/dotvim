@@ -74,6 +74,7 @@ Plugin 'wting/rust.vim'
 Plugin 'AndrewRadev/vim-eco'
 Plugin 'wavded/vim-stylus'
 Plugin 'drools.vim'
+Plugin 'leafgarland/typescript-vim'
 
 " Fancy panels
 Plugin 'scrooloose/nerdtree'
