@@ -41,6 +41,12 @@ end
 inoremap jj <ESC>
 inoremap <C-j> <Esc>o
 inoremap ł λ
+inoremap <Left> ←
+inoremap <Right> →
+inoremap <Up> ↑
+inoremap <Down> ↓
+inoremap <S-Right> ⇒
+inoremap <S-Left> ⇐
 
 noremap <Space> <C-f>
 noremap <S-Space> <C-b>
