@@ -101,7 +101,6 @@ digraph FF 10070  " ❖
 augroup myautocmds
   autocmd!
   autocmd BufNewFile,BufRead *.txt setlocal textwidth=80
-  autocmd FileType go setlocal shiftwidth=8 noexpandtab commentstring="// %s"
   autocmd FileType html,tex,bib,vim,sh setlocal shiftwidth=2
   if !has('nvim')
     set cryptmethod=blowfish
@@ -132,34 +131,6 @@ let g:syntastic_javascript_checkers = ['/usr/local/bin/jshint']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args = '--max-line-length=120'
 let g:syntastic_enable_racket_racket_checker = 1
-
-let g:tagbar_type_go = {
-    \ 'ctagstype' : 'go',
-    \ 'kinds'     : [
-        \ 'p:package',
-        \ 'i:imports:1',
-        \ 'c:constants',
-        \ 'v:variables',
-        \ 't:types',
-        \ 'n:interfaces',
-        \ 'w:fields',
-        \ 'e:embedded',
-        \ 'm:methods',
-        \ 'r:constructor',
-        \ 'f:functions'
-    \ ],
-    \ 'sro' : '.',
-    \ 'kind2scope' : {
-        \ 't' : 'ctype',
-        \ 'n' : 'ntype'
-    \ },
-    \ 'scope2kind' : {
-        \ 'ctype' : 't',
-        \ 'ntype' : 'n'
-    \ },
-    \ 'ctagsbin'  : 'gotags',
-    \ 'ctagsargs' : '-sort -silent'
-\ }
 
 " Window mode
 let g:submode_timeout = 0
