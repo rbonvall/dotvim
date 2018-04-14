@@ -1,6 +1,6 @@
 " vimrc
 " Author: Roberto Bonvallet
-" Email: rbonvall@gmail.com
+" Email: roberto@mez.cl
 
 runtime bundles.vim
 
