@@ -1,13 +1,10 @@
 #!/bin/bash
 
-backup () {
-  if [ -L "$1" ]
-  then
-    rm "$1"
-  fi
+die_if_exists () {
   if [ -e "$1" ]
   then
-    mv -v "$1"{,~}
+    echo >&2 "$1 already exists"
+    exit 1
   fi
 }
 
@@ -17,9 +14,9 @@ VIMRC="${HOME}/.vimrc"
 GVIMRC="${HOME}/.gvimrc"
 VIMDIR="${HOME}/.vim"
 
-backup "${VIMRC}"
-backup "${GVIMRC}"
-backup "${VIMDIR}"
+die_if_exists "${VIMRC}"
+die_if_exists "${GVIMRC}"
+die_if_exists "${VIMDIR}"
 
 ln -s "${SCRIPTSDIR}" "${VIMDIR}"
 ln -s "${VIMDIR}"/vimrc.vim  "${VIMRC}"
