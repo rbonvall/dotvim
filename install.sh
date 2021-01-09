@@ -18,9 +18,9 @@ die_if_exists "${VIMRC}"
 die_if_exists "${GVIMRC}"
 die_if_exists "${VIMDIR}"
 
-ln -s "${SCRIPTSDIR}" "${VIMDIR}"
-ln -s "${VIMDIR}"/vimrc.vim  "${VIMRC}"
-ln -s "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
+ln -vs "${SCRIPTSDIR}" "${VIMDIR}"
+ln -vs "${VIMDIR}"/vimrc.vim  "${VIMRC}"
+ln -vs "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
 
 mkdir -p bundle
 git clone https://github.com/gmarik/vundle.git bundle/vundle
@@ -28,6 +28,6 @@ vim -u bundles.vim +BundleInstall +qa
 
 # For neovim
 mkdir -p "$HOME/.config"
-ln -s "$HOME/.vim"   "$HOME/.config/nvim"
-ln -s "$HOME/.vimrc" "$HOME/.config/nvim/init.vim"
+ln -vs "$HOME/.vim"   "$HOME/.config/nvim"
+ln -vs "$HOME/.vimrc" "$HOME/.config/nvim/init.vim"
 
