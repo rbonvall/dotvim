@@ -1,96 +1,94 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call plug#begin("~/.vim/plugged")
 
 " Plugin management
-Plugin 'gmarik/vundle'
+Plug 'gmarik/vundle'
 
 " Helper libraries
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'kana/vim-submode'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'kana/vim-submode'
 
 " Make a better vim
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-rsi'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-abolish'
-Plugin 'kana/vim-smartinput'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-rsi'
+Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-abolish'
+Plug 'kana/vim-smartinput'
 "Plugin 'edsono/vim-matchit'
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'mhinz/vim-startify'
-Plugin 'bruno-/vim-vertical-move'
-Plugin 'thinca/vim-quickrun'
-Plugin 'ConradIrwin/vim-bracketed-paste'
+Plug 'Lokaltog/vim-powerline'
+Plug 'mhinz/vim-startify'
+Plug 'bruno-/vim-vertical-move'
+Plug 'thinca/vim-quickrun'
+Plug 'ConradIrwin/vim-bracketed-paste'
 
 " Snippets
-Plugin 'garbas/vim-snipmate'
-Plugin 'rbonvall/snipmate-snippets'
-Plugin 'rbonvall/snipmate-snippets-bib'
-Plugin 'rbonvall/snipmate-snippets-fortran95'
+Plug 'garbas/vim-snipmate'
+Plug 'rbonvall/snipmate-snippets'
+Plug 'rbonvall/snipmate-snippets-bib'
+Plug 'rbonvall/snipmate-snippets-fortran95'
 
 " Text objects
-Plugin 'kana/vim-textobj-user'
-Plugin 'kana/vim-textobj-function'
-Plugin 'rbonvall/vim-textobj-latex'
-Plugin 'austintaylor/vim-indentobject'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-function'
+Plug 'rbonvall/vim-textobj-latex'
+Plug 'austintaylor/vim-indentobject'
 
 " Git
-Plugin 'tpope/vim-fugitive'
-Plugin 'gregsexton/gitv'
-Plugin 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'gregsexton/gitv'
+Plug 'airblade/vim-gitgutter'
 
 " HTML
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'tpope/vim-ragtag'
-Plugin 'othree/html5-syntax.vim'
-Plugin 'othree/html5.vim'
+Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plug 'tpope/vim-ragtag'
+Plug 'othree/html5-syntax.vim'
+Plug 'othree/html5.vim'
 
 " Go
-Plugin 'jnwhiteh/vim-golang'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plug 'jnwhiteh/vim-golang'
+Plug 'nsf/gocode', {'rtp': 'vim/'}
 
 " Javascript
-Plugin 'moll/vim-node'
-Plugin 'mklabs/grunt.vim'
-Plugin 'walm/jshint.vim'
+Plug 'moll/vim-node'
+Plug 'mklabs/grunt.vim'
+Plug 'walm/jshint.vim'
 
 " Scala
-Plugin 'derekwyatt/vim-scala'
-Plugin 'derekwyatt/vim-sbt'
+Plug 'derekwyatt/vim-scala'
+Plug 'derekwyatt/vim-sbt'
 
 " Other languages
-Plugin 'groenewege/vim-less'
-Plugin 'uarun/vim-protobuf'
-Plugin 'wlangstroth/vim-racket'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'mustache/vim-mode'
-Plugin 'tpope/vim-jdaddy'
-Plugin 'wting/rust.vim'
-Plugin 'AndrewRadev/vim-eco'
-Plugin 'wavded/vim-stylus'
-Plugin 'drools.vim'
-Plugin 'leafgarland/typescript-vim'
+Plug 'groenewege/vim-less'
+Plug 'uarun/vim-protobuf'
+Plug 'wlangstroth/vim-racket'
+Plug 'kchmck/vim-coffee-script'
+Plug 'mustache/vim-mode'
+Plug 'tpope/vim-jdaddy'
+Plug 'wting/rust.vim'
+Plug 'AndrewRadev/vim-eco'
+Plug 'wavded/vim-stylus'
+"Plug 'drools.vim'
+Plug 'leafgarland/typescript-vim'
 
 " Fancy panels
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim.git'
-Plugin 'sjl/gundo.vim'
-Plugin 'majutsushi/tagbar'
-Plugin 'scrooloose/syntastic'
+Plug 'scrooloose/nerdtree'
+Plug 'kien/ctrlp.vim.git'
+Plug 'sjl/gundo.vim'
+Plug 'majutsushi/tagbar'
+Plug 'scrooloose/syntastic'
 
 " Others
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'chrisbra/unicode.vim'
-Plugin 'godlygeek/tabular'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'chrisbra/unicode.vim'
+Plug 'godlygeek/tabular'
 
 " Colorschemes
-Plugin 'tomasr/molokai'
-Plugin 'morhetz/gruvbox'
-Plugin 'nanotech/jellybeans.vim'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plug 'tomasr/molokai'
+Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
+Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
+call plug#end()

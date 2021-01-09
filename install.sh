@@ -22,9 +22,9 @@ ln -vs "${SCRIPTSDIR}" "${VIMDIR}"
 ln -vs "${VIMDIR}"/vimrc.vim  "${VIMRC}"
 ln -vs "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
 
-mkdir -p bundle
-git clone https://github.com/gmarik/vundle.git bundle/vundle
-vim -u bundles.vim +BundleInstall +qa
+mkdir -p autoload plugged
+curl -fLo autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim -u bundles.vim +PlugInstall +qa
 
 # For neovim
 mkdir -p "$HOME/.config"

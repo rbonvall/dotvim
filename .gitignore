@@ -1,5 +1,6 @@
 *.swp
 tags
 .netrwhist
-bundle
+autoload
+plugged
 init.vim
