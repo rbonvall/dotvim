@@ -1,8 +1,5 @@
 call plug#begin("~/.vim/plugged")
 
-" Plugin management
-Plug 'gmarik/vundle'
-
 " Helper libraries
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
