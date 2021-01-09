@@ -2,7 +2,7 @@
 " Author: Roberto Bonvallet
 " Email: roberto@mez.cl
 
-runtime bundles.vim
+runtime plugins.vim
 
 colorscheme default
 syntax on
@@ -82,7 +82,7 @@ nnoremap <leader>ge :vsplit $MYGVIMRC<cr>
 nnoremap <leader>gs :source $MYGVIMRC<cr>
 nnoremap <leader>d<space> :%s/\s\+$//<cr>
 nnoremap <leader>op :!xdg-open % &<cr>
-nnoremap <leader>be :vsplit $HOME/codigo/dotvim/bundles.vim<cr>
+nnoremap <leader>be :vsplit $HOME/codigo/dotvim/plugins.vim<cr>
 nnoremap <leader>bi :BundleInstall<cr>
 nnoremap <leader>bu :BundleInstall!<cr>
 nnoremap <leader>bc :BundleClean<cr>

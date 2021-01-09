@@ -24,7 +24,7 @@ ln -vs "${VIMDIR}"/gvimrc.vim "${GVIMRC}"
 
 mkdir -p autoload plugged
 curl -fLo autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-vim -u bundles.vim +PlugInstall +qa
+vim -u plugins.vim +PlugInstall +qa
 
 # For neovim
 mkdir -p "$HOME/.config"
