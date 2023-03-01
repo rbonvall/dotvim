@@ -75,7 +75,7 @@ Plug 'dag/vim-fish'
 
 " Fancy panels
 Plug 'scrooloose/nerdtree'
-Plug 'kien/ctrlp.vim.git'
+"Plug 'kien/ctrlp.vim.git'
 Plug 'sjl/gundo.vim'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/syntastic'
