@@ -70,6 +70,7 @@ Plug 'AndrewRadev/vim-eco'
 Plug 'wavded/vim-stylus'
 "Plug 'drools.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 
 " Fancy panels
 Plug 'scrooloose/nerdtree'
