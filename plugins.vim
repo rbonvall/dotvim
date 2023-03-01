@@ -20,6 +20,7 @@ Plug 'mhinz/vim-startify'
 Plug 'bruno-/vim-vertical-move'
 Plug 'thinca/vim-quickrun'
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'mjbrownie/swapit'
 
 " Snippets
 Plug 'garbas/vim-snipmate'
