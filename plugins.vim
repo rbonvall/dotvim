@@ -23,10 +23,10 @@ Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'mjbrownie/swapit'
 
 " Snippets
-Plug 'garbas/vim-snipmate'
-Plug 'rbonvall/snipmate-snippets'
-Plug 'rbonvall/snipmate-snippets-bib'
-Plug 'rbonvall/snipmate-snippets-fortran95'
+"Plug 'garbas/vim-snipmate'
+"Plug 'rbonvall/snipmate-snippets'
+"Plug 'rbonvall/snipmate-snippets-bib'
+"Plug 'rbonvall/snipmate-snippets-fortran95'
 
 " Text objects
 Plug 'kana/vim-textobj-user'
