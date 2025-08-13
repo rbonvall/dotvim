@@ -72,6 +72,7 @@ Plug 'wavded/vim-stylus'
 Plug 'leafgarland/typescript-vim'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'dag/vim-fish'
+Plug 'vmchale/dhall-vim'
 
 " Fancy panels
 Plug 'scrooloose/nerdtree'
